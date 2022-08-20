@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Register.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Register</title>
+</head>
+
+<body>
+    <h1>Register Your Account</h1>
+    <main> 
+        <form method="post" on>
+            <label>First Name:
+                <input type="text" name="first-name" placeholder="Enter Your First Name" required autocomplete="off" />
+            </label>
+            <label>Last Name:
+                <input type="text" name="last-name" placeholder="Enter Your Last Name" autocomplete="off" required />
+            </label>
+            <label>Email:
+                <input type="email" name="email" placeholder="Enter Your Email" 
+                autocomplete="email"
+                required />
+            </label>
+            <label>Confirm Email:
+                <input type="email" name="email" placeholder="Confirm Your Email" 
+                autocomplete="email"
+                required />
+            </label>
+            <label>Username:
+                <input type="text" name="user-name" placeholder="Enter A Username" autocomplete="off" required />
+            </label>
+            <label>Create a New Password:
+                <input type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                placeholder="Enter Your Password"
+                autocomplete="new-password"
+                id="password"
+                required/><i class="material-icons"
+                class='hide'
+                aria-hidden="true" 
+                onclick="showPassword()"
+                >visibility_off</i>
+            </label>
+            <label>Confirm Password:
+                <input type="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                placeholder="Confirm Your Password" 
+                autocomplete="new-password"
+                required 
+                id="confirm"
+             /><i class="material-icons"
+             class='hide'
+             aria-hidden="true" 
+             onclick="showPassword()"
+             >visibility_off</i>
+            </label>
+            <label>Input your age (years):
+                <input type="number" name="age" min="13" max="99" />
+            </label>
+            <input type="checkbox" name="terms" class="inline" required /> I accept the <a
+                href="Terms.html">terms and conditions</a>
+            <input type="submit" id="submit" value="Submit" />
+            <span class="span"> Already Registered? <a href="Login.html"> Login </a></span>
+        </form>
+    </main>
+    <script type='text/javascript' src="js/Register.js"></script>
+</body>
+
+</html>

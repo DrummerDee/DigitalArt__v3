@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Crimson Text', 'Fascinate', 'cursive', sans-serif;
+    background-color:  rgb(246, 234, 218)
+}

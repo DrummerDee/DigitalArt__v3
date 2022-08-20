@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Hall.css">
+    <title>Digital Art-Hall</title>
+</head>
+
+<body>
+    <header>
+        <div class="users">
+            <a href="Register.html">Create Account</a>
+            <a href="Login.html">Sign In</a>
+        </div>
+        <h1> The Great Hall</h1>
+    </header>
+    <div class="grid-item">
+        <div class="container">
+            <img class='images' src="Images/godspainting.jpeg" alt="" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Art Gallery</h3>
+                    <p> Look at the wonderful art pieces </p>
+                    <input id="txtbtn2" type='submit' value='Enter' onclick="location.href='Gallery'"/> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img class='images' id="comment" src="Images/comment Medium.jpeg" alt="" />
+            <div class="overlay">
+                <div class="text">
+                    <h3>Room 14</h3>
+                    <p> Leave your opinion before you go </p>
+                    <input id="txtbtn" type='submit' value='Enter' onclick="location.href='Fourteen'"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="exit">
+        <input type='submit' value='Exit' onclick="location.href='Bye'"/>
+    </div>
+    <script src="js/Gallery.js"></script>
+</body>
+
+</html>

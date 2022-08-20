@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    height: 100vh;
+    margin: 0;
+    color: black;
+    background-color:  rgb(246, 234, 218);
+    font-family: 'Crimson Text', 'Fascinate', 'cursive', sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+    background-image: url('../Images/Digital-logo.png');
+    background-repeat: no-repeat;
+    background-position: left top top;
+  }
+  
+  h1{
+    padding: 2rem 0 0.5rem 0;
+    text-align: flex-end;
+    justify-content: flex-end;
+    font-size: 1.6rem;
+  }
+  form {
+    width: 45vw;
+    height: 39.5rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid black;
+    box-shadow: 0 0 0.3rem black;
+    padding-top: 0.5rem;
+    background-color:white;
+  }
+  /*password eye icon */
+  .material-icons{
+    margin-left: -3rem; 
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0 2rem 0 2rem;
+  }
+  input{
+    background-color:white ;
+    border: none;
+    border-bottom: 0.2rem solid black;
+    outline: none;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 2rem;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 40%;
+    margin: 0.5rem auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(184, 184, 169);
+    min-width: 5rem;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    background-color: rgb(107, 107, 193);
+    border-bottom: 0.3rem solid rgb(184, 184, 169);
+    transition: all 0.3s ease;
+    color: white;
+  }
+input:focus{
+  border-bottom: 0.2em solid rgb(107, 107, 193);
+}
+.span{
+  margin: auto 2rem;
+}

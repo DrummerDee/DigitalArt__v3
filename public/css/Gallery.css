@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Crimson Text', 'Fascinate', 'cursive', sans-serif;
+  margin: 0;
+}
+body{
+  background-color: rgb(231, 231, 222);
+}
+.swiper-wrapper{
+  text-align: center;
+}
+.swiper {
+  background-color:#ddc;
+  border:solid 3vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:0.3rem;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 0 0 rgba(0,0,0,.25) inset, 0 0.5rem 1rem 0.5rem rgba(0,0,0,.25);
+  box-sizing:border-box; 
+  height:35rem;
+  width: 45rem;
+  position:relative;
+  margin-top: 2rem;
+}
+  .swiper:before {
+    border-radius:0.3rem;
+    bottom:-2vmin;
+    box-shadow:0 0.5rem 1rem 0 rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  }
+  .swiper:after {
+    border-radius:0.3rem;
+    bottom:-2.5vmin;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin; 
+  }
+  .swiper-slide img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.swiper-button-prev,.swiper-button-next{
+  color: white;
+}
+  .swiper-button-prev:hover,.swiper-button-next:hover{
+    color: rgb(41, 41, 41);
+    background-color:rgb(0, 0, 0,0.3);
+    border: 0.3rem solid rgb(0, 0, 0,0.3);
+    padding: 1.5rem 0.8rem 1.5rem 0.8rem;
+    font-size: 3rem;
+  }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.2rem;
+
+  }
+input{
+  outline: none;
+  border: none;
+  text-align: center;
+  margin-left: 2rem;
+}
+input[type="submit"] {
+  display: block;
+  width: 15%;
+  height: 2em;
+  font-size: 1rem;
+  background-color: rgb(184, 184, 169);
+  min-width: 2rem;
+  cursor: pointer;
+  border-bottom: 0.3rem solid black;
+  border-radius: 0.3rem;
+}
+input[type="submit"]:hover{
+  background-color: rgb(107, 107, 193);
+  transition: all 0.3s ease;
+  border-bottom: 0.3rem solid white;
+  box-shadow:rgba(0, 0, 0, 0.5);
+  color: white;
+}
+/* For most phones */
+@media only screen 
+and (min-width: 100px) 
+and (max-width: 600px)
+and (-webkit-min-device-pixel-ratio: 2){
+  *{
+    box-sizing: border-box;
+    font-family: 'Crimson Text', 'Fascinate', 'cursive', sans-serif;
+    margin: 0;
+  }
+  body{
+    overflow: hidden;
+  }
+  .swiper {
+    background-color:#ddc;
+    border:solid 3vmin #eee;
+    border-bottom-color:#fff;
+    border-left-color:#eee;
+    border-radius:0.3rem;
+    border-right-color:#eee;
+    border-top-color:#ddd;
+    box-shadow:0 0 0 0 rgba(0,0,0,.25) inset, 0 0.5rem 1rem 0.5rem rgba(0,0,0,.25);
+    box-sizing:border-box; 
+    height:35rem;
+    width: 25rem;
+    margin-top: 2.5rem;
+  }
+  .button{
+    font-size: 2.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(184, 184, 169);
+    font-family: 'Crimson Text','Fascinate','cursive',sans-serif;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    }
+}
+/* Media queries for tablets and ipads */
+@media only screen 
+and (min-width: 600px) 
+and (max-width: 900px)
+and (-webkit-min-device-pixel-ratio: 2){
+  .swiper {
+    background-color:#ddc;
+    border:solid 3vmin #eee;
+    border-bottom-color:#fff;
+    border-left-color:#eee;
+    border-radius:0.3rem;
+    border-right-color:#eee;
+    border-top-color:#ddd;
+    box-shadow:0 0 0 0 rgba(0,0,0,.25) inset, 0 0.5rem 1rem 0.5rem rgba(0,0,0,.25);
+    box-sizing:border-box; 
+    height:35rem;
+    width: 45rem;
+    margin-top: 6rem;
+  }
+  .button{
+    font-size: 2.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(184, 184, 169);
+    font-family: 'Crimson Text','Fascinate','cursive',sans-serif;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+    }
+}
