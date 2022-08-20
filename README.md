@@ -30,11 +30,13 @@
 * Swiperjs
 * MongoDB
 * Heroku
-
+* JWT
+* Bcrypt
 
 ## Features
 
 * With a click of a button users can enter different rooms in the museum 
+* Users are able to create an account and upload their own art 
 * Within the gallery, users are able to swipe through pictures and follow the links to the artists who has their art displayed in the gallery
 * Within the 14th room, users are able to comment their thoughts as well as edit and delete their comment
 * On departure, users are met with a 'Thank You' note and provided the links to developer socials 
@@ -45,7 +47,6 @@
 
 ### Optimizations
 * Add the option to like and reply to specific comments 
-* Add the ability to create an account and upload personal art  
 * Use browser developer tools that help to debug browser compatability tests
 
 ## Prerequisites 
